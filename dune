@@ -1,3 +1,4 @@
 (executable
  (name nendo)
+ (public_name nendo)
  (libraries unix))
