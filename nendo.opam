@@ -8,9 +8,7 @@ A utility to print both Western and Japanese calendar year
 maintainer: "Kenichi Asai <asai@is.ocha.ac.jp>"
 authors: "Kenichi Asai <asai@is.ocha.ac.jp>"
 license: "MIT"
-homepage: ""
-bug-reports: ""
-dev-repo: ""
+homepage: "https://github.com/kenichi-asai/nendo"
 depends: [ "ocaml" "ocamlfind" "dune" ]
 build: [
   ["dune" "build" "-p" name "-j" jobs]
