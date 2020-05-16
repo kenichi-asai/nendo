@@ -1,2 +1,3 @@
 # nendo
-A utility to print both Western and Japanese calendar year
+
+西暦と年号と年度を表示するプログラム

@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "project"
+version: "0.1"
+synopsis: "A utility to print both Western and Japanese calendar year"
+description: """
+A utility to print both Western and Japanese calendar year
+"""
+maintainer: "Kenichi Asai <asai@is.ocha.ac.jp>"
+authors: "Kenichi Asai <asai@is.ocha.ac.jp>"
+license: "MIT"
+homepage: ""
+bug-reports: ""
+dev-repo: ""
+depends: [ "ocaml" "ocamlfind" "dune" ]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
