@@ -9,6 +9,7 @@ maintainer: "Kenichi Asai <asai@is.ocha.ac.jp>"
 authors: "Kenichi Asai <asai@is.ocha.ac.jp>"
 license: "MIT"
 homepage: "https://github.com/kenichi-asai/nendo"
+bug-reports: "https://github.com/kenichi-asai/nendo/issues"
 depends: [ "ocaml" "ocamlfind" "dune" ]
 build: [
   ["dune" "build" "-p" name "-j" jobs]
